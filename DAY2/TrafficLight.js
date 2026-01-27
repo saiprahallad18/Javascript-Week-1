@@ -1,31 +1,4 @@
-// let color="red";
-// switch(color){
-//     case "red":
-//         console.log("stop");
-//         break;
-//     case "yellow":
-//         console.log("ready");
-//         break;
-//     case "green":
-//         console.log("go");
-//         break;
-//     default:
-//         console.log("invalid signal");
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-let color = "red";
+let color="red";
 switch(color){
     case "red":
         console.log("stop");
@@ -33,9 +6,9 @@ switch(color){
     case "yellow":
         console.log("ready");
         break;
-    case "greeen":
+    case "green":
         console.log("go");
         break;
     default:
-        console.log("invalid volor");
+        console.log("invalid signal");
 }
