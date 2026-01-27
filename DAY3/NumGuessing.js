@@ -3,12 +3,12 @@ let secretNumber = 7;
 let guess = 3;
 
 while(true){
-    if(guess == secretNumber){
-        console.log("Try again");
+    if(guess === secretNumber){
+        console.log("Correct");
         break;
     }
     else{
-        console.log("Correct");
+        console.log("Try again");
         guess ++;
     }
 }
