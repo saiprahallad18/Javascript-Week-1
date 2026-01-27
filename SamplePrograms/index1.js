@@ -87,20 +87,120 @@
 // }
 
 
-let marks = 10;
-if(marks>= 90){
-    console.log("A")
-}
-else if(marks >= 75){
-    console.log("B")
-}
-else if (marks>=50){
-    console.log("C")
-}
-else{
-    console.log("Fail")
-}
+// let marks = 10;
+// if(marks>= 90){
+//     console.log("A")
+// }
+// else if(marks >= 75){
+//     console.log("B")
+// }
+// else if (marks>=50){
+//     console.log("C")
+// }
+// else{
+//     console.log("Fail")
+// }
 
+// for(let i=0;i<=6;i++){
+//     console.log(i)
+// }
+
+
+// for(let i=5;i>=0;i--){
+//     console.log(i)
+// }
+
+// let i=1;
+// while(i<=10){
+//     console.log(i);
+//     i++;
+// }
+
+// let i=0;
+// while(i<=100){
+//     console.log(i);
+//     i++;
+// }
+
+
+// let i = 0;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i<=10);
+
+
+
+
+
+// let i=0;
+// while(i<=10){
+//     console.log(i);
+//     i++;
+// }
+
+
+// let i=0;
+// do{
+//     console.log(i);
+//         i++;
+// }
+// while(i<=5);
+
+
+// for(let i=0;i<=10;i++){
+//     if(i==5){
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// for(let i=0;i<=7;i++){
+//     if(i==4){
+//         continue;
+//    }
+//    console.log(i);
+// }
+
+// let sum=0;
+// for(i=0;i<=5;i++){
+//     sum +=i;
+// }
+// console.log(sum);
+
+
+// let sum=0;
+// for(i=0;i<=20;i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+// for(let i=1; i<=5;i++){
+//     let stars ="";
+// }
+// for(let j=1;j<=i;j++){
+//     stars += "*";
+// }
+// console.log(stars);
+
+// // function add(a, b){
+// //     return a + b;
+// // }
+// // add(3, 4);
+
+
+// function add(a, b) {
+//   return a + b;
+// }
+
+// add(2, 3); // 5
+
+
+const multiply = function(a,b){
+    return a*b;
+};
+multiply(2,3);
 
 
 
