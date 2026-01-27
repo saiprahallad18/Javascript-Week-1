@@ -4,7 +4,7 @@ let c = 7;
 if(a>b&& a>c){
     console.log(a);
 }
-else if(b>c && b>c){
+else if(b>a && b>c){
     console.log(b);   
 }
 else{
