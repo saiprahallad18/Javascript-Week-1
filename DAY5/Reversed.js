@@ -1,8 +1,12 @@
-function reverseString(text){
-    let arr = text.split("");
-    arr.reverse();
-    let result = arr.join("");
-    return result;
+// function reverseString(text){
+//     let arr = text.split("");
+//     arr.reverse();
+//     let result = arr.join("");
+//     return result;
+// }
+
+function reverseString(text) {
+    return text.split("").reverse().join("");
 }
 let text = "Balaji";
 let output = reverseString(text);

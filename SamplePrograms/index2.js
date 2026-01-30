@@ -125,4 +125,4 @@
 
 function roundToTwo(number){
     return number(number.toFixed(2));
-}
+} 

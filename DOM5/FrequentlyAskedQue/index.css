@@ -1,0 +1,9 @@
+.answer{
+    display: none;
+}
+.faq-item.active .answer{
+    display: block;
+}
+.question{
+    cursor: pointer;
+}
