@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    padding: 30px;
+}
+form{
+    background: #fff;
+    padding: 20px;
+    width: 320px;
+    border-radius: 7px;
+}
+input,textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+textarea{
+    height: 60px;
+    resize: none;
+}
+button{
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    height: 14px;
+    display: block;
+}
+
+#output{
+    margin-top: 20px;
+}
+.feedback-card {
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
