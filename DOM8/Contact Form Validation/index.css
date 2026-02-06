@@ -1,0 +1,36 @@
+body{
+    font-family: Arial,sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background: #fff;
+    padding: 20px;
+    width: 320px;
+    border-radius: 6px;   
+}
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+textarea {
+    resize: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    height: 14px;
+    display: block;
+}
+#success {
+    color: green;
+    margin-top: 10px;
+    font-size: 14px;
+}
